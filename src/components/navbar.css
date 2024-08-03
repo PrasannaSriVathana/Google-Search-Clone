@@ -1,0 +1,84 @@
+.gridButton {
+    border: none;
+    background-color: white;
+}
+
+.gridButtonImage{
+    width:15px;
+}
+
+.accountButton{
+    background-color: #50a550;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    padding-right: 12px;
+    padding-left: 12px;
+    padding-top: 8px;
+    padding-bottom: 5px;
+    border: none;
+    border-radius: 100%;
+}
+
+.navbar{
+    height: 50px;
+    display: flex;
+    justify-content: flex-end;
+
+}
+.navContainer{
+    display: flex;
+    gap:20px;
+    max-width:1024px;
+    width:100%;
+    align-items: center;
+    position:relative;
+    padding-left:400px;
+}
+
+.gmail{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+
+.images{
+    text-decoration: none;
+    color: black;
+    font-size: 13px;
+    font-family: sans-serif;
+}
+
+.gmail:hover{
+    text-decoration: underline;
+}
+
+.images:hover{
+    text-decoration: underline;
+}
+
+.searchLab{
+    color:black;
+}
+
+.navbarContainer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 1000;
+    padding: 10px;
+}
+.accButton{
+    border: none;
+    background-color: white;
+    border-radius: 100%;
+    padding-right:10px;
+}
+.acc1{
+    border-radius: 100%;
+    width: 30px;
+}
+
+
+

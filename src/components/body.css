@@ -1,0 +1,166 @@
+.google{
+    justify-content:center;
+    margin-top: -27px;
+}
+
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40vh;
+}
+
+.ga{
+    text-align: center;
+    color: rgb(42, 146, 250);
+    font-size:90px;
+    font-family:sans-serif ;
+    font-weight:lighter;
+}
+.oa{
+    text-align: center;
+    color: rgb(225, 43, 43);
+    font-size:90px;
+    font-family:sans-serif ;
+    font-weight:lighter;
+}
+.ob{
+    text-align: center;
+    color: rgb(245, 165, 6);
+    font-size:90px;
+    font-family:sans-serif ;
+    font-weight:lighter;
+}
+.gb{
+    text-align: center;
+    color: rgb(42, 146, 250);
+    font-size:90px;
+    font-family:sans-serif ;
+    font-weight:lighter;
+}
+.la{
+    text-align: center;
+    color: rgb(47, 167, 47);
+    font-size:90px;
+    font-family:sans-serif ;
+    font-weight:lighter;
+}
+.ea{
+    text-align: center;
+    color: rgb(225, 43, 43);
+    font-size:90px;
+    font-family:sans-serif ;
+    font-weight:lighter;
+}
+
+.search{
+    align-items: center;
+    justify-content: center;
+    display: grid;
+    margin-top: -45px;
+}
+
+.searchBody{
+    padding-bottom: 7px;
+    padding-top: 13px;
+    padding-left: 30px;
+    padding-right: 30px;
+    border: 1px solid gainsboro;
+    height: 25px;
+    justify-content: space-around;
+    border-radius: 25px ;
+    align-items: center;
+    width:500px;
+}
+.searchItem{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+
+.searchIcon{
+    color: darkgray;
+    padding-bottom: 5px;
+}
+
+.searchInput{
+    border: none;
+    outline:none;
+    width:500px;
+}
+
+.xIcon{
+    color:darkgray;
+}
+
+.voiceIcon{
+    width:23px;
+    padding-bottom: 5px;
+    padding-left:2px;
+}
+
+.cameraIcon{
+    width:33px;
+    margin-top: -5px;
+}
+
+.searchBody:hover{
+    box-shadow: 2px 0.5px 2px 2px #e4e4e4;
+}
+
+.buttonItems{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding-top:30px;
+    gap:20px;
+}
+
+.buttona{
+    padding:10px;
+    border: none;
+    background-color: #fbf9f9;
+}
+.buttonb{
+    padding:10px;
+    border:none;
+    background-color: #fbf9f9;
+}
+
+.buttona:hover{
+    border-radius: 4px;
+    border:1px solid lightgray;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px whitesmoke;
+}
+
+.buttonb:hover{
+    border-radius: 4px;
+    border:1px solid lightgray;
+    box-shadow: 0.5px 0.5px 0.5px 0.5px whitesmoke;
+}
+
+.descItem{
+    display: flex;
+    gap:10px;
+}
+.desc{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+}
+.descItem>h4{
+    font-weight: lighter;
+    color: #424141;
+    font-family: sans-serif;
+    font-size: 13px;
+}
+
+.lang{
+    text-decoration: none;
+    font-size: 13px;
+}
+
+.lang:hover{
+    text-decoration: underline;
+}
